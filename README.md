@@ -26,7 +26,7 @@ Clone the wiki repo somewhere on your local drive and write down or copy the pat
 In the cloned veloci-wiki repo, run:
 
 <pre>
-% perl setup.pl <path to your wiki checkout>
+% perl setup.pl &lt;path to your wiki checkout>
 </pre>
 
 You should see something like:
