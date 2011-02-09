@@ -6,17 +6,24 @@ Veloci-wiki is not a wiki, per se. Rather, it's an easy way to set up your [Nota
 
 ### Github Setup
 
-* Fork this project on github to your own account.
-* Create your wiki by going to "Wiki" and clicking "Create Wiki"
-* Click the "Git Access" button and copy the git URL, which will look something like: `git@github.com:<you>/veloci-wiki.wiki.git`
-* Clone the wiki repo somewhere on your local drive and write down or copy the path:
+Fork this project on github to your own account.
+
+Create your wiki by going to "Wiki" and clicking "Create Wiki"
+
+<img src="https://img.skitch.com/20110209-testx7sund75f4cwnq43y14b43.png" style="border:1px solid #999"/>
+
+After the wiki is created, click the "Git Access" button on the wiki home page and copy the git URL, which will look something like: `git@github.com:<you>/veloci-wiki.wiki.git`
+    
+<img src="https://img.skitch.com/20110209-kcpp64uhsy6eknqiwwiqdaug1n.png" style="border:1px solid #999"/>
+    
+Clone the wiki repo somewhere on your local drive and write down or copy the path:
 
 <pre>
 % git clone git@github.com:<you>/veloci-wiki.wiki.git
 % cd veloci-wiki.wiki; pwd | pbcopy
 </pre>
 
-* In the cloned veloci-wiki repo, run:
+In the cloned veloci-wiki repo, run:
 
 <pre>
 % perl setup.pl <path to your wiki checkout>
