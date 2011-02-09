@@ -11,12 +11,16 @@ Veloci-wiki is not a wiki, per se. Rather, it's an easy way to set up your [Nota
 * Click the "Git Access" button and copy the git URL, which will look something like: `git@github.com:<you>/veloci-wiki.wiki.git`
 * Clone the wiki repo somewhere on your local drive and write down or copy the path:
 
-    % git clone git@github.com:<you>/veloci-wiki.wiki.git
-    % cd veloci-wiki.wiki; pwd | pbcopy
+<pre>
+% git clone git@github.com:<you>/veloci-wiki.wiki.git
+% cd veloci-wiki.wiki; pwd | pbcopy
+</pre>
 
 * In the cloned veloci-wiki repo, run:
 
-    % perl setup.pl <path to your wiki checkout>
+<pre>
+% perl setup.pl <path to your wiki checkout>
+</pre>
 
 You should see something like:
 
@@ -29,7 +33,9 @@ You should see something like:
 
 You can ignore any warnings like:
 
-    % launchctl: Error unloading: <some file>
+<pre>
+% launchctl: Error unloading: <some file>
+</pre>
 
 ### Notational Velocity Setup
 
