@@ -2,6 +2,8 @@
 
 Veloci-wiki is not a wiki, per se. Rather, it's an easy way to set up your [Notational Velocity](http://notational.net) install to store note data in a [Github](http://github.com) wiki. This makes NV a great note editor AND a great wiki editor!
 
+See the first blog post [here](http://www.monkinetic.com/2011/02/wiring-notational-velocity-to-a-github-wiki.html) for more info.
+
 # Usage
 
 ## Github Setup
