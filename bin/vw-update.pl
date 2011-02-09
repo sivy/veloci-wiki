@@ -10,6 +10,8 @@ chomp $GIT;
 my $GROWL = `which growlnotify`;
 chomp $GROWL;
 
+_check_watch_dir($WATCH_PATH);
+
 my $status= `cd $WATCH_PATH; $GIT status`;
 
 if ($status =~ /modified|untracked\ files\ present|deleted/) {
@@ -22,4 +24,14 @@ if ($status =~ /modified|untracked\ files\ present|deleted/) {
     }
 } else {
     print "Veloci-Wiki Update: No update needed.\n"
+}
+
+###
+sub _check_watch_dir {
+    my $wd = shift;
+    if (! -d "$wd/.git") {
+        _log("Watch directory ($wd) is not a Git repository!");
+        exit(1);
+    }
+    1;
 }
