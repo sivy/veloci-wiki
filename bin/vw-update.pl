@@ -17,6 +17,7 @@ if ($status =~ /modified|untracked\ files\ present|deleted/) {
     
     ### use growl if available
     if (-f $GROWL) {
+        print "Veloci-Wiki Update: Your Notes Wiki was updated:\n$out";
         `$GROWL 'Veloci-Wiki Update' -m "Your Notes Wiki was updated:\n$out"`;
     }
 } else {
