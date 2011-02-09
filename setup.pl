@@ -21,7 +21,7 @@ _check_watch_dir($WATCH_PATH);
 
 _log("Watching: $WATCH_PATH");
 
-my $PLIST_ID = 'local.veloci-wiki-update';
+my $PLIST_ID = "local.$USER.veloci-wiki-update";
 
 my $plist = <<"PLIST";
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,6 +36,7 @@ my $plist = <<"PLIST";
 	<array>
 		<string>perl</string>
 		<string>$CWD/bin/vw-update.pl</string>
+		<string>$WATCH_PATH</string>
 	</array>
 	<key>WatchPaths</key>
 	<array>
@@ -55,10 +56,12 @@ _log("/Users/$USER/Library/LaunchAgents/$PLIST_ID.plist");
 
 open(my $plist_file, '>',
      "/Users/$USER/Library/LaunchAgents/$PLIST_ID.plist") or die $!;
-
 print $plist_file $plist;
-
 close($plist_file);
+
+_log("Restarting launchd...");
+`launchctl unload ~/Library/LaunchAgents/`;
+`launchctl load ~/Library/LaunchAgents/`;
 
 #####
 
