@@ -2,9 +2,9 @@
 
 Veloci-wiki is not a wiki, per se. Rather, it's an easy way to set up your [Notational Velocity](http://notational.net) install to store note data in a [Github](http://github.com) wiki. This makes NV a great note editor AND a great wiki editor!
 
-## Usage
+# Usage
 
-### Github Setup
+## Github Setup
 
 Fork this project on github to your own account and create a local clone.
 
@@ -40,7 +40,7 @@ You can ignore any warnings like:
 
     % launchctl: Error unloading: <some file>
 
-### Notational Velocity Setup
+## Notational Velocity Setup
 
 You are using it, or downloaded it, right?
 
@@ -48,7 +48,7 @@ Launch NV if it's not running. Open the Preferences and click on "Notes". Next t
 
 <img src="https://img.skitch.com/20110209-chd6tba37ubie8645idami31us.png" style="border:1px solid #999"/>
 
-Then, click on "Storage" and change your settings to use "Plain Text Files" (In [nvalt](http://brettterpstra.com/code/notational-velocity-alt/), a fork of Notational Velocity, I use the "Zettelkasten (Markup text Files)" setting, but it works either way):
+Then, click on "Storage" and change your settings to use "Plain Text Files" (in [nvalt](http://brettterpstra.com/code/notational-velocity-alt/), a fork of Notational Velocity, I use the "Zettelkasten (Markup text Files)" setting, but it works either way):
 
 <img src="https://img.skitch.com/20110209-bgxebb3r9fmaipcwup3pfm62er.png" style="border:1px solid #999"/>
 
