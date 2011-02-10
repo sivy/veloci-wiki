@@ -8,7 +8,7 @@ See the first blog post [here](http://www.monkinetic.com/2011/02/wiring-notation
 
 ## Github Setup
 
-Fork this project on github to your own account and create a local clone.
+Fork this project on github (click the "Fork" button on [this page](https://github.com/sivy/veloci-wiki)) to your own account and then create a local clone.
 
     % git clone git@github.com:<you>/veloci-wiki.git
 
@@ -54,4 +54,4 @@ Then, click on "Storage" and change your settings to use "Plain Text Files" (in 
 
 <img src="https://img.skitch.com/20110209-bgxebb3r9fmaipcwup3pfm62er.png" style="border:1px solid #999"/>
 
-
+Finally, to make sure that NV creates markdown (`.md`) files by default, select (or create an entry for) ".md" in the list of file extensions and then click the checkmark icon below the list. This sets `.md` as the default extension for files.
