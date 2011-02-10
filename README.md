@@ -56,4 +56,10 @@ Then, click on "Storage" and change your settings to use "Plain Text Files" (in 
 
 <img src="https://img.skitch.com/20110209-bgxebb3r9fmaipcwup3pfm62er.png" style="border:1px solid #999"/>
 
-Finally, to make sure that NV creates markdown (`.md`) files by default, select (or create an entry for) ".md" in the list of file extensions and then click the checkmark icon below the list. This sets `.md` as the default extension for files.
+Finally, to make sure that NV creates markdown (`.md`) files by default, select (or create an entry for) ".md" in the list of file extensions and then click the checkmark icon below the list. This sets `.md` as the default extension for files (Github only recognizes `.md` files as wiki pages).
+
+# It's alive!
+
+Now, after making a change in Notational Velocity, you should see your page appear on your Github wiki under "Pages". If you have Growl installed, the update script will find it and report:
+
+<img src="https://img.skitch.com/20110210-fgqmw673pkh773gc6rewj7sqaw.png" style="border:1px solid #999" />

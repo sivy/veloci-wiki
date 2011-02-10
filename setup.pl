@@ -34,7 +34,7 @@ my $plist = <<"PLIST";
 	<string>$PLIST_ID</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>perl</string>
+    	<string>perl</string>
 		<string>$CWD/bin/vw-update.pl</string>
 		<string>$WATCH_PATH</string>
 	</array>
