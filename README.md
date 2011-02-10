@@ -8,22 +8,24 @@ See the first blog post [here](http://www.monkinetic.com/2011/02/wiring-notation
 
 ## Github Setup
 
-Fork this project on github (click the "Fork" button on [this page](https://github.com/sivy/veloci-wiki)) to your own account and then create a local clone.
+First up, get the code:
 
-    % git clone git@github.com:<you>/veloci-wiki.git
+    % git clone git@github.com:sivy/veloci-wiki.git
 
-Create your wiki by going to "Wiki" and clicking "Create Wiki"
+If you prefer, fork the project first, then create a local clone.
+
+If you don't already have a repository on Github that you want to use for your NV wiki, create a new respository (Github has [excellent help](http://help.github.com/) if you need it) and create the wiki for the repo by going to "Wiki" and clicking "Create Wiki"
 
 <img src="https://img.skitch.com/20110209-testx7sund75f4cwnq43y14b43.png" style="border:1px solid #999"/>
 
-After the wiki is created, click the "Git Access" button on the wiki home page and copy the git URL, which will look something like: `git@github.com:<you>/veloci-wiki.wiki.git`
+After you have your wiki, click the "Git Access" button on the wiki home page and copy the git URL, which will look something like: `git@github.com:<you>/<some-repo>.wiki.git`
     
 <img src="https://img.skitch.com/20110209-kcpp64uhsy6eknqiwwiqdaug1n.png" style="border:1px solid #999"/>
     
 Clone the wiki repo somewhere on your local drive and write down or copy the path:
 
-    % git clone git@github.com:<you>/veloci-wiki.wiki.git
-    % cd veloci-wiki.wiki; pwd | pbcopy
+    % git clone git@github.com:<you>/<some-repo>.wiki.git
+    % cd <some-repo>.wiki; pwd | pbcopy
 
 In the cloned veloci-wiki repo, run:
 
