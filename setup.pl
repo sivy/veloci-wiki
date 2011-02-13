@@ -38,10 +38,8 @@ my $plist = <<"PLIST";
 		<string>$CWD/bin/vw-update.pl</string>
 		<string>$WATCH_PATH</string>
 	</array>
-	<key>WatchPaths</key>
-	<array>
-	    <string>$WATCH_PATH</string>
-	</array>
+	<key>StartInterval</key>
+	<integer>300</integer>
 </dict>
 </plist>
 PLIST
